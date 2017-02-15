@@ -12,9 +12,8 @@ public class Start {
 		ModelT1000 t1000 =(ModelT1000) context.getBean("T1000");
 		System.out.println(t1000);
 		context.close();
-		/*t1000.fire();
+		t1000.fire();
 		t1000 = (ModelT1000) context.getBean("T1000");
 		System.out.println(t1000);
-*/
 	}
 }
